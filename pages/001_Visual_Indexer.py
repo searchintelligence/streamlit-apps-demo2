@@ -194,7 +194,7 @@ if __name__ == "__main__":
             header[3].subheader("Polarity")
             header[4].subheader("Use Column")
 
-            st.write(usable_columns)
+            #st.write(usable_columns)
 
             for column_name in usable_columns:
                 #st.write(column_name)

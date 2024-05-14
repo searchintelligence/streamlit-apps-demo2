@@ -2,6 +2,7 @@ bokeh
 bs4
 lxml
 matplotlib
+openpyxl
 pandas
 plotly
 psutil
