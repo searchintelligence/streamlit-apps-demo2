@@ -1,0 +1,11 @@
+bokeh
+bs4
+lxml
+matplotlib
+pandas
+plotly
+psutil
+requests
+scipy
+seaborn
+streamlit

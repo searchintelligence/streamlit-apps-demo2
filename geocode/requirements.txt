@@ -1,0 +1,6 @@
+geopandas
+jupyterlab
+pandas
+leafmap
+requests
+unidecode

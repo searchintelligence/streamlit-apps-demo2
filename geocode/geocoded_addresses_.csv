@@ -1,0 +1,21 @@
+address,place_id,osm_id,lat,long,display_name,class,type
+"3645 las vegas blvd s, usa",129313261,116867081,36.1137843,-115.16901066671255,"Bally's Las Vegas, 3645, South Las Vegas Boulevard, Hughes Center, Las Vegas, Clark County, Nevada, 89109, United States",tourism,hotel
+"3645 las vegas blvd s, usa",83932485,8235993876,36.1140478,-115.1701192,"Lobby Bar, South Las Vegas Boulevard, Hughes Center, Las Vegas, Clark County, Nevada, 89109, United States",amenity,bar
+"3645 las vegas blvd s, usa",54002674,4668679493,36.1138116,-115.1693803,"Indigo Lounge, South Las Vegas Boulevard, Hughes Center, Las Vegas, Clark County, Nevada, 89109, United States",amenity,bar
+"3645 las vegas blvd s, usa",52893298,4668679494,36.1136373,-115.1706912,"Nosh, South Las Vegas Boulevard, Hughes Center, Las Vegas, Clark County, Nevada, 89109, United States",amenity,restaurant
+"3645 las vegas blvd s, usa",53232336,4668679492,36.11388,-115.1689853,"Tequila Taqueria, South Las Vegas Boulevard, Hughes Center, Las Vegas, Clark County, Nevada, 89109, United States",amenity,restaurant
+"3645 las vegas blvd s, usa",53534151,4668679491,36.1135528,-115.1690095,"BLT Steakhouse, South Las Vegas Boulevard, Hughes Center, Las Vegas, Clark County, Nevada, 89109, United States",amenity,restaurant
+"3645 las vegas blvd s, usa",72113477,6697921851,36.1136794,-115.169003,"Nobu, South Las Vegas Boulevard, Hughes Center, Las Vegas, Clark County, Nevada, 89109, United States",amenity,restaurant
+"3645 las vegas blvd s, usa",82492043,8241528523,36.1137352,-115.16758,"Avenue Shops, South Las Vegas Boulevard, Hughes Center, Las Vegas, Clark County, Nevada, 89109, United States",amenity,restaurant
+"3645 las vegas blvd s, usa",83046594,8241531904,36.1137434,-115.1676918,"Race & Sports Book, South Las Vegas Boulevard, Hughes Center, Las Vegas, Clark County, Nevada, 89109, United States",club,sport
+"3645 las vegas blvd s, usa",83974320,8241525919,36.1142673,-115.169252,"Signature Gift Shop, South Las Vegas Boulevard, Hughes Center, Las Vegas, Clark County, Nevada, 89109, United States",shop,gift
+"3790-3792 s las vegas blvd, usa",198243978,423693000,36.1598929,-115.1466998,"South Las Vegas Boulevard, John S. Park, Las Vegas, Clark County, Nevada, 89104-1307, United States",highway,primary
+"3790-3792 s las vegas blvd, usa",215107757,523572056,36.1626062,-115.1449394,"South Las Vegas Boulevard, 18b Arts District, Las Vegas, Clark County, Nevada, 89101, United States",highway,primary
+"3790-3792 s las vegas blvd, usa",168495775,269898542,36.1502097,-115.1532075,"South Las Vegas Boulevard, Las Vegas, Clark County, Nevada, 89104-1307, United States",highway,primary
+"3790-3792 s las vegas blvd, usa",168856254,269922646,36.1677439,-115.1417323,"South Las Vegas Boulevard, Las Vegas, Clark County, Nevada, 89101, United States",highway,primary
+"3790-3792 s las vegas blvd, usa",201608316,423692998,36.1595334,-115.1470891,"South Las Vegas Boulevard, 18b Arts District, Las Vegas, Clark County, Nevada, 89104-1307, United States",highway,primary
+"3790-3792 s las vegas blvd, usa",197923794,421274959,36.1454227,-115.1563483,"South Las Vegas Boulevard, Las Vegas, Clark County, Nevada, 89104-2530, United States",highway,primary
+"3790-3792 s las vegas blvd, usa",217455105,523556729,36.0752462,-115.1727853,"South Las Vegas Boulevard, Paradise, Clark County, Nevada, 89119-1001, United States",highway,primary
+"3790-3792 s las vegas blvd, usa",269707522,889920380,35.9658362,-115.172751,"South Las Vegas Boulevard, Henderson, Clark County, Nevada, 89054, United States",highway,primary
+"3790-3792 s las vegas blvd, usa",143660696,170062902,35.9607013,-115.17285,"South Las Vegas Boulevard, Henderson, Clark County, Nevada, 89054, United States",highway,secondary
+"3790-3792 s las vegas blvd, usa",253313606,775419064,36.0135634,-115.1722956,"South Las Vegas Boulevard, Enterprise, Clark County, Nevada, 89183, United States",highway,primary

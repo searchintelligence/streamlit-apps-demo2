@@ -1,0 +1,58 @@
+address,place_id,osm_id,lat,long,display_name,class,type
+"aerodromo da gandara, portugal",10091774,1042047247,39.7800137,-8.8206537,"Aeródromo de Leiria, Rua do Falcão, Outeiros da Gândara dos Olivais, Marrazes e Barosa, Leiria, 2419-008, Portugal",aeroway,aerodrome
+"aerodromo da gandara, portugal",134409049,138371565,39.780328,-8.821428652,"Hangar Aeródromo Leiria, Rua do Falcão, Outeiros da Gândara dos Olivais, Marrazes e Barosa, Leiria, 2419-008, Portugal",building,hangar
+"aerodromo de espinho, rua da lagoa, paramos, espinho, aveiro, 4500-524, portugal",137364707,151728909,40.97335145,-8.643567754,"Aer�dromo de Espinho, Avenida da Praia, Paramos, Espinho, Aveiro, 4500-524, Portugal",aeroway,aerodrome
+alverca airbase,128440922,114787513,38.89060935,-9.033415912,"Alverca, Avenida Infante Dom Pedro, Alverca do Ribatejo, Alverca do Ribatejo e Sobralinho, Vila Franca de Xira, Lisbon, 2615-174, Portugal",railway,station
+"beja airport, portugal",10250644,1042047227,38.0753421,-7.9242041,"Beja Airport, Trigaches e São Brissos, Beja, 7800-741, Portugal",military,airfield
+"beja airport, portugal",10250644,1042047227,38.0753421,-7.9242041,"Beja Airport, Trigaches e São Brissos, Beja, 7800-741, Portugal",military,airfield
+braga airport,288086988,4115866,41.5510583,-8.4280045,"Braga, Portugal",boundary,administrative
+"braganca airport, portugal",142612866,169899771,41.4678653,-7.226261673,"Mirandela Airport, EM 15-4, São Pedro de Vale do Conde, Passos, Mirandela, Bragança District, 5370-644, Portugal",aeroway,aerodrome
+"braganca airport, portugal",142612866,169899771,41.4678653,-7.226261673,"Mirandela Airport, EM 15-4, São Pedro de Vale do Conde, Passos, Mirandela, Bragança District, 5370-644, Portugal",aeroway,aerodrome
+castelo branco aerodrome,172935839,290462960,-27.21765765,-53.27255314,"Águas Frias Aerodrome, Avenida Castelo Branco, Iraí, Região Geográfica Imediata de Frederico Westphalen, Região Geográfica Intermediária de Passo Fundo, Rio Grande do Sul, South Region, 98460-000, Brazil",aeroway,aerodrome
+chaves airport,"	288056467","	4022982",41.7399453,-7.471477,"Chaves, Vila Real, Portugal",boundary,administrative
+"coimbra airport, portugal","	138200452","	154800937",40.19779165,-8.509669608,"Coimbra Airport Shuttle, ER 1-7, Taveiro, Ameal e Arzila, Coimbra, 3045-504, Portugal",building,yes
+"corvo airport, portugal",174106064,296775627,39.6713601,-31.11547402,"Corvo Airport, Rua da Matriz, Historical Centre, Vila do Corvo, Corvo, Azores, 9980, Portugal",aeroway,aerodrome
+"cristiano ronaldo madeira airport, portugal",133498962,133790788,32.69817005,-16.77389415,"Cristiano Ronaldo Airport, Alameda das Chegadas, Santa Cruz, Madeira, 9100-105, Portugal",aeroway,aerodrome
+"evora airport, portugal",140224336,162512814,38.5323012,-7.889139569,"Évora Airport, Rua Bartolomeu de Gusmão, PIAE - Parque de Indústria Aeronáutica de Évora, Malagueira e Horta das Figueiras, Évora, 7005-797, Portugal",aeroway,aerodrome
+"faro airport, portugal",145584851,183076614,37.0174596,-7.973911066,"Faro Airport, Rua Bernardino Bonixe, Montenegro, Faro, 8001-701, Portugal",aeroway,aerodrome
+"faro airport, portugal",123294278,93276133,37.0199065,-7.968362384,"Faro Airport, EN 125-10, Arábia, Montenegro, Faro, 8005-177, Portugal",aeroway,terminal
+"faro airport, portugal",14319915,1372556396,37.0210744,-7.9674497,"Faro Airport, Rua Samuel Gacon, Arábia, Montenegro, Faro, 8005-177, Portugal",amenity,taxi
+figo maduro airbase,183178650,336146807,38.78207825,-9.130170295,"Aer�dromo de Tr�nsito n.� 1 (AT1), Rua Ary dos Santos, Olivais, Lisbon, 1700-109, Portugal",aeroway,aerodrome
+"flores airport, portugal",162160391,243269445,39.4556805,-31.1316297,"Flores Airport, Rua Roberto Mesquita, Boavista, Santa Cruz das Flores, Azores, 9970-328, Portugal",aeroway,aerodrome
+francisco sa carneiro airport,103019437,13802869,41.24883035,-8.681037254,"Aeroporto Francisco Sá Carneiro, Rua Doutor António Francisco de Oliveira, Vilar de Pinheiro, Vila do Conde, Porto, 4470-802, Portugal",aeroway,aerodrome
+"graciosa airport, portugal",182373895,332512451,39.09181725,-28.03071313,"Graciosa Airport, EN 1, Dores, Santa Cruz da Graciosa, Azores, 9880-316, Portugal",aeroway,aerodrome
+"horta airport, portugal",288851800,12907397,38.52030315,-28.71620255,"Horta Airport, Aeroporto da Horta, Jogo, Castelo Branco, Horta, Azores, 9900-330, Portugal",aeroway,aerodrome
+"joao paulo ii airport, portugal",288737265,13560111,37.74310625,-25.70115634,"João Paulo II Airport, Rua da Piedade, Arrifes, Ponta Delgada, Azores, 9500-373, Portugal",aeroway,aerodrome
+lajes air base,"	62781938",5618040318,37.2464,-7.8119,"Lajes, S�o Br�s de Alportel, Faro, 8800-017, Portugal",natural,peak
+"lajes airport, portugal",203514950,444491069,38.7644237,-27.09108466,"Lajes International Airport, Chegadas Aeroporto, Lajes, Praia da Vitória, Azores, 9760-451, Portugal",aeroway,aerodrome
+"lajes airport, portugal",19391138,2066245349,38.7527301,-27.0852421,"Esquadra da Polícia de Segurança Publica, Aeroporto das Lajes, Arrival - TER Airport, Praia da Vitória (Santa Cruz), Praia da Vitória, Azores, 9760-451, Portugal",amenity,police
+"lisbon airport, portugal",182970726,336112741,38.7809542,-9.131900592,"Lisbon Airport, Alameda das Comunidades Portuguesas, Olivais, Lisbon, 1700-111, Portugal",aeroway,aerodrome
+lisbon-cascais regional airport,287979342,5400889,38.72240025,-9.396909172,"Cascais, Lisbon, Portugal",boundary,administrative
+"maia airport, portugal",16324497,1668515030,41.2564784,-8.6794729,"Airport Fire Station, Rua das Lagielas, Aveleda, Vila Nova da Telha, Maia, Porto, 4470-802, Portugal",amenity,fire_station
+"maia airport, portugal",75794765,7153602057,41.2404794,-8.6596121,"oporto airport & business hotel, 35, Rua Casimiro Albano Monteiro, Moreira, Maia, Porto, 4470-428, Portugal",tourism,hotel
+"maia airport, portugal",82392391,8199423478,41.2406152,-8.6598042,"Oporto Airport & Business Hotel Tesla Destination Charger, Rua dos Verdes, Moreira, Maia, Porto, 4470-428, Portugal",amenity,charging_station
+"mirandela airport, portugal",142612866,169899771,41.4678653,-7.226261673,"Mirandela Airport, EM 15-4, São Pedro de Vale do Conde, Passos, Mirandela, Bragança District, 5370-644, Portugal",aeroway,aerodrome
+monfortinho airport,"	3654746",459193262,40.0033288,-6.9164657,"Monfortinho, Monfortinho e Salvaterra de Extremo, Idanha-a-Nova, Castelo Branco, 6060-072, Portugal",place,village
+"monte real air base, portugal",131892092,126763210,39.8295016,-8.889270739,"Monte Real Air Base, EN 349-1, Serra do Porto de Urso, Monte Real e Carvide, Leiria, 2425-051, Portugal",aeroway,aerodrome
+montijo airbase,286744330,344680,38.9098936,-6.6151799,"Montijo, Badajoz, Extremadura, 06480, Spain",boundary,administrative
+morargil airport,140015359,162549557,38.9937392,-8.141653775,"Morargil Airfield, EN 2, Mora, Avis, �vora, 7490-319, Portugal",aeroway,aerodrome
+ota airbase,288303161,6519135,39.1107606,-8.9908879,"Ota, Alenquer, Lisbon, Portugal",boundary,administrative
+ovar airbase,288267054,6022122,40.84584435,-8.648528874,"Ovar, Aveiro, Portugal",boundary,historic
+pico airport,288092984,4161494,41.696884,-8.4170736,"Pico, Vila Verde, Braga, Portugal",boundary,administrative
+portimao airport,287980377,5404106,37.19420955,-8.585577395,"Portim�o, Faro, Portugal",boundary,administrative
+"porto santo airport, portugal",287771528,6785242,33.07362365,-16.34816498,"Porto Santo Airport, Estrada Dr. Francisco Rodrigues Jardim, Campo de Cima, Vila Baleira, Porto Santo, Madeira, 9400-159, Portugal",aeroway,aerodrome
+praia verde airport,120715671,"	79503288",37.17388625,-7.479309282,"Praia Verde, Castro Marim, Faro, Portugal",natural,beach
+"santa cruz airport, portugal",207739524,477695877,47.6109109,-52.7519528,"Portugal Cove Road, Airport Heights, St. John's, Newfoundland, Newfoundland and Labrador, A1C 1E9, Canada",highway,primary
+"santa cruz airport, portugal",208261698,477686655,47.6080829,-52.7444405,"Portugal Cove Road, Airport Heights, St. John's, Newfoundland, Newfoundland and Labrador, A1A 5B5, Canada",highway,primary
+"santa cruz airport, portugal",130558900,123044723,47.6101525,-52.7477844,"Portugal Cove Road, Airport Road, St. John's, Newfoundland, Newfoundland and Labrador, A1C 1E9, Canada",highway,primary
+"santa cruz airport, portugal",207736726,477686659,47.6085114,-52.7445855,"Portugal Cove Road, Airport Road, St. John's, Newfoundland, Newfoundland and Labrador, A1A 5B5, Canada",highway,primary
+"santa cruz airport, portugal",208991991,477812548,47.6008833,-52.7352805,"Portugal Cove Road, Airport Heights, St. John's, Newfoundland, Newfoundland and Labrador, A1B 2L3, Canada",highway,primary
+"santa cruz airport, portugal",208604858,477671663,47.6019554,-52.7388296,"Portugal Cove Road, Airport Road, St. John's, Newfoundland, Newfoundland and Labrador, A1A 4Y3, Canada",highway,primary
+"santa cruz airport, portugal",208257803,477671662,47.601908,-52.7390511,"Portugal Cove Road, Airport Heights, St. John's, Newfoundland, Newfoundland and Labrador, A1A 4Y3, Canada",highway,primary
+"santa cruz airport, portugal",131782419,123044722,47.6002676,-52.7329035,"Portugal Cove Road, Bells Turn, St. John's, Newfoundland, Newfoundland and Labrador, A1B 2L3, Canada",highway,primary
+"santa maria airport, portugal","	288158163",4800957,36.9725989,-25.10263362,"Rosario Airport, Pedro Melo de Portugal, Santa Blas, Villa del Rosario, San Pedro, Región Oriental, Paraguay",aeroway,aerodrome
+"sao jorge airport, portugal",237013052,682009930,38.66498595,-28.17326933,"São Jorge Airport, ER 1-2, Ribeira do Almeida, Fajã de Santo Amaro, Santo Amaro, Velas, Azores, 9800-338, Portugal",aeroway,aerodrome
+sintra airbase,288768141,5400893,38.8355605,-9.352225246,"Sintra, Lisbon, Portugal",boundary,administrative
+tancos airbase,288117828,6483278,39.4606302,-8.3985263,"Tancos, Vila Nova da Barquinha, Santar�m, 2260-314, Portugal",boundary,administrative
+vila real airport,288265277,7824717,-16.70518095,-43.82008294,"Mário Ribeiro Airport, Rua Quinze de Novembro, Vila Real, Montes Claros, Região Geográfica Imediata de Montes Claros, Região Geográfica Intermediária de Montes Claros, Minas Gerais, Southeast Region, 39402746, Brazil",aeroway,aerodrome
+viseu airport,288188692,5330332,40.6574713,-7.9138664,"Viseu, Portugal",boundary,administrative
