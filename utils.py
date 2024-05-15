@@ -139,7 +139,7 @@ def load_file(uploaded_file: bytes) -> pd.DataFrame:
                     sheet_name = row[0].selectbox(label="Select a worksheet", options=workbook.keys())
                     row_number = row[1].slider(label=f"row number", label_visibility="hidden", min_value=1, max_value=50, value=1, step=1)
                     column_number = row[2].slider(label=f"column number", label_visibility="hidden", min_value=1, max_value=50, value=1, step=1)
-                    st.write(row_number)
+                    #st.write(row_number)
                     
                     st.form_submit_button("Load Data")
 

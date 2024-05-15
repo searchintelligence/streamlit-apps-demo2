@@ -44,7 +44,7 @@ if __name__ == "__main__":
         layout='wide'
     )
 
-    st.cache_data
+    @st.cache_data
     def load_file_(uploaded_file: bytes) -> pd.DataFrame:
         """
         Wrapper for the load_file function in utils.py
