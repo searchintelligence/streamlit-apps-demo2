@@ -1,18 +1,25 @@
+import csv
+import io
 from io import BytesIO
+import os
 
 import numpy as np
 import pandas as pd
 
 import streamlit as st
 
+from unidecode import unidecode
+
 # minimum acceptable percentage of NON-na values in column
 USABLE_ROW_COUNT_LIMIT = 0.6
+
+EPSILON = 0.000001
 
 TRANSFORMATIONS = {
     "raw": lambda x: x,    
     #"log": lambda x: np.log(x) if x > 0 else np.nan,    
-    "log": lambda x: np.log(x + 0.000001),
-    "inverse": lambda x: 1/x if x != 0 else np.nan,    
+    "log": lambda x: np.log(x + EPSILON),
+    "inverse": lambda x: 1/(x + EPSILON) if x != 0 else np.nan,    
     "square_root": lambda x: np.sqrt(x) if x > 0 else np.nan,    
     #"eigth_root": lambda x: x ** 0.125 if x > 0 else np.nan,    
     "squared": lambda x: x ** 2,
@@ -33,68 +40,6 @@ VALID_FILE_EXTENSIONS = [
 
 MAX_INDEX_CELL_SCORE = 10
 MAX_INDEX_ROW_SCORE = 100
-
-def load_file_OLD(uploaded_file: bytes) -> pd.DataFrame:
-    """
-    Return a copy of the specified excel sheet as a pandas DataFrame
-
-        Parameters:
-            uploaded_file (bytes):            
-        
-        Returns:
-            data_df (pd.DataFrame):
-    """
-
-    if uploaded_file is not None:
-        file_extention = uploaded_file.name.split(".")[-1]
-    else:
-        file_extention = ""
-
-    if file_extention == "":
-        # no data uploaded
-        data_df = None
-    elif file_extention not in VALID_FILE_EXTENSIONS:
-        # unsupported file type
-        st.write(f"Unsupported file type '{file_extention}'. Please upload an excel or csv file.")
-        data_df = None
-    else:
-        # load csv or excel file
-        try:
-            if file_extention == "csv":
-                data_df = pd.read_csv(BytesIO(uploaded_file.read()))
-            else:
-                # get excel worksheet names
-                workbook = pd.read_excel(BytesIO(uploaded_file.read()), sheet_name=None)
-                sheet_name = st.selectbox(label="Select a worksheet", options=workbook.keys())
-
-                # load excel worksheet
-                if sheet_name != "":
-                    data_df = workbook[sheet_name]
-
-                    # remove empty rows
-                    row = 0
-                    while True:                            
-                        if data_df.iloc[row].value_counts().shape[0] != 0:
-                            break
-                        
-                        row += 1
-
-                    column_names = list(data_df.iloc[row])
-                    data_df = data_df.iloc[row + 1:].copy()
-                    data_df.columns = column_names
-
-                    if len(data_df.columns) != len(set(data_df.columns)):
-                        # incorrectly formatted worksheet
-                        st.write(f"Unable to read data from '{sheet_name}' worksheet. Incorrectly formatted data.")
-                        data_df = None
-                else:
-                    data_df = None
-        except AttributeError as e:
-            st.write("Exception raised while loading file.")
-            st.write(e)
-            data_df = None
-
-    return data_df
 
 def load_file(uploaded_file: bytes) -> pd.DataFrame:
     """
@@ -123,7 +68,46 @@ def load_file(uploaded_file: bytes) -> pd.DataFrame:
         # load csv or excel file
         try:
             if file_extention == "csv":
-                data_df = pd.read_csv(BytesIO(uploaded_file.read()))
+                """
+                pandas read_csv() function cannot be made to consistently read data when there's separator
+                in the data e.g the value "123,456" would cause an error and teh entire column would be 
+                read as null values
+
+                this occurs even when using the "sep" and "quotechar" arguments
+
+                therefore the solution below does the following:
+                    1) saves the uploaded file to a csv
+                    2) reads the saved file with csv.reader
+                    3) delete file
+                """
+                
+                data_as_bytes = BytesIO(uploaded_file.read())
+                #data_df = pd.read_csv(data_as_bytes, quotechar='"', engine="python")
+
+                file_name = "test.csv"
+                file_path = os.path.join(os.getcwd(), "example_data", file_name)
+
+                # create temporary file                
+                with open(file_path, "wb") as f:                    
+                    f.write(data_as_bytes.getbuffer())
+
+                # read data from temporary file
+                data = []
+                with open(file_path, "r", newline="") as f:
+                    reader = csv.reader(f)
+                    for i, row in enumerate(reader):
+                        if i == 0:
+                            # get headers and remove characters from start of file
+                            headers = row
+                            headers[0] = headers[0][3:]
+                        else:
+                            data.append([unidecode(x).replace(",", "") for x in row])
+
+                # delete temporary file and create data frame from data
+                os.remove(file_path)
+
+                data_as_dicts = [dict(zip(headers, row)) for row in data]
+                data_df = pd.DataFrame(data_as_dicts)
             else:
                 # get excel worksheet names
                 workbook = pd.read_excel(BytesIO(uploaded_file.read()), sheet_name=None)
