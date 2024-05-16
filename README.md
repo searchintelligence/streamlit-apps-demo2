@@ -39,3 +39,5 @@ Workflow:
     - Add option for user to adjust formatting
 5) Add unique column name code to csv loader
     -  Already exists in excel loader
+6) ~~Fix issue with csv files having commas in numbers (e.g. 123,456)~~
+    - Issue now fixed
